@@ -2,7 +2,7 @@ import os
 import google.generativeai as genai
 
 # Your Gemini API key (set as environment variable for security)
-API_KEY = "AIzaSyAyqdWhRu-hqRrY27X_Ck4E1O8ghfUAUzk"
+API_KEY = "YOUR_GEMINI_API_KEY_HERE"
 
 # Configure the genai library with your API key
 genai.configure(api_key=API_KEY)
@@ -34,3 +34,4 @@ with open("result.txt", "w", encoding="utf-8") as f:
     f.write(result_text)
 
 print("✅ Response saved to result.txt")
+
