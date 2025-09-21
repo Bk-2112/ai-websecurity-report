@@ -5,7 +5,7 @@ A Simple Python/Bash based tool that uses Google's GEMINI AI to evaluate and sum
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to your endresult1.py and endresult2.py
 
 `GEMINI_API_KEY`
 
