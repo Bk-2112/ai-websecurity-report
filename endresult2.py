@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # Your Gemini API key (set as environment variable for security)
 # Make sure to set this environment variable: export GEMINI_API_KEY='YOUR_API_KEY_HERE'
-API_KEY = "AIzaSyAyqdWhRu-hqRrY27X_Ck4E1O8ghfUAUzk"
+API_KEY = "YOUR_GEMINI_API_KEY_HERE"
 
 if not API_KEY:
     print("Error: GEMINI_API_KEY environment variable not set.")
@@ -48,4 +48,5 @@ with open("summary.txt", "w", encoding="utf-8") as f:
     f.write(result_text)
 
 print("✅ Response saved to summary.txt")
+
 os.system("cat result.txt")
